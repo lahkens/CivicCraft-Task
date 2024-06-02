@@ -1,0 +1,78 @@
+.contact,
+.talkToUs {
+  position: relative;
+  font-weight: 700;
+}
+.contact {
+  letter-spacing: 0.2em;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.talkToUs {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 58px;
+  font-family: inherit;
+}
+.contactSection,
+.content,
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  align-items: center;
+  text-align: left;
+  font-size: var(--desktop-heading-size-large-size);
+  color: var(--gray-scale-800);
+}
+.contactSection,
+.sectionTitle {
+  align-items: flex-start;
+}
+.sectionTitle {
+  width: 768px;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.contactSection {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: 100px;
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--subheading-size);
+  color: #c47209;
+  font-family: var(--desktop-text-medium);
+}
+@media screen and (max-width: 750px) {
+  .talkToUs {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .contactSection {
+    gap: var(--gap-5xl);
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .talkToUs {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+}

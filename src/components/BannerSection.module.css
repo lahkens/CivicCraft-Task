@@ -1,0 +1,107 @@
+.dailyUpdates {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 34px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .frameChild {
+    width: 11.4px;
+    height: 11.4px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--gray-scale-700);
+  }
+  .bannerSectionInner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs-3) 0 0;
+  }
+  .saveMoney {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 34px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .frameItem {
+    width: 11.4px;
+    height: 11.4px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--gray-scale-700);
+  }
+  .bannerSectionChild {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs-3) 0 0;
+  }
+  .modernTechnology {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 34px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .frameInner {
+    width: 11.4px;
+    height: 11.4px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--gray-scale-700);
+  }
+  .frameDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs-3) 0 0;
+  }
+  .drones {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 34px;
+    font-weight: 700;
+    display: inline-block;
+    min-width: 81px;
+    flex-shrink: 0;
+  }
+  .ellipseDiv {
+    width: 13px;
+    height: 13px;
+    position:relative;
+    border-radius: 50%;
+    background-color: #5E5E5E;
+    margin-top: 10px;
+    /* margin-left: 100px; */
+  }
+  .bannerSection {
+    width: 100%;
+    background-color: #F3F3F3;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 250px 20px 250px;
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--subheading-size);
+    color: #5E5E5E;
+    font-family: var(--desktop-text-medium);
+  }
+  @media screen and (max-width: 1250px) {
+    .bannerSection {
+      display: none;
+    }
+  }
+  

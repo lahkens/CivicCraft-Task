@@ -1,0 +1,95 @@
+.dronesAreThe {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: -0.01em;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .getABirds {
+    width: 599.4px;
+    position: relative;
+    font-size: var(--desktop-text-medium-size);
+    line-height: 150%;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .content1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xl);
+    max-width: 100%;
+  }
+  .column {
+    align-self: stretch;
+    flex: 1;
+  }
+  .actions {
+    width: 133px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) 0 0;
+    box-sizing: border-box;
+  }
+  .content,
+  .ctaSection {
+    max-width: 100%;
+    display: flex;
+  }
+  .content {
+    width: 906px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    text-align: center;
+    font-size: var(--desktop-heading-size-large-size);
+    color: var(--gray-scale-800);
+    font-family: var(--desktop-text-medium);
+  }
+  .ctaSection {
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-109xl) var(--padding-xl) 492px;
+    box-sizing: border-box;
+    background-image: url('cta-section@3x.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+  @media screen and (max-width: 750px) {
+    .dronesAreThe {
+      font-size: var(--font-size-19xl);
+      line-height: 46px;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .ctaSection {
+      gap: var(--gap-5xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .dronesAreThe {
+      font-size: var(--font-size-10xl);
+      line-height: 35px;
+    }
+    .getABirds {
+      font-size: var(--desktop-text-regular-size);
+      line-height: 24px;
+    }
+  }
+  

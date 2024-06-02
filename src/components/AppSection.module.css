@@ -1,0 +1,115 @@
+.downloadOurApp,
+.wereAnAgtech {
+  align-self: stretch;
+  position: relative;
+}
+.downloadOurApp {
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  color: #FCF6F0;
+}
+.wereAnAgtech {
+  font-size: var(--desktop-heading-size-medium-size);
+  line-height: 150%;
+  color: #FCF6F0;
+}
+.downloadOurAppParent {
+  width: 100%; /* Ensure it takes up full width */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.appStoreIcon,
+.playIcon {
+  align-self: stretch;
+  width: 216.4px;
+  position: relative;
+  max-height: 100%;
+  min-height: 70px;
+  flex-shrink: 0;
+}
+.playIcon {
+  width: 236.9px;
+}
+.storeButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15.9px;
+}
+.appSection,
+.storeButtonsWrapper {
+  max-width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+.storeButtonsWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 21.9px;
+}
+.appSection {
+  width: 100%; /* Ensure it takes up full width */
+  background: linear-gradient(90deg, #d48c04, #b35911);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-45xl);
+  line-height: normal;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--desktop-heading-size-medium-size);
+  color: var(--yellow-orange-orange-50);
+  font-family: var(--desktop-text-medium);
+}
+@media screen and (max-width: 1225px) {
+  .downloadOurAppParent {
+    flex: 1;
+  }
+  .appSection {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 500px) {
+  .downloadOurApp {
+    font-size: 18px; /* Adjust the font size */
+    line-height: 23px;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%; /* Ensure it takes up full width */
+  }
+  .downloadOurAppParent {
+    align-items: center;
+    width: 100%; /* Ensure it takes up full width */
+  }
+  .appSection {
+    width: 100%; /* Ensure it takes up full width */
+    padding: 20px; /* Adjust padding */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack elements vertically */
+  }
+  .wereAnAgtech {
+    font-size: 18px; /* Adjust the font size */
+    line-height: 35px;
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* Ensure it takes up full width */
+  }
+  .storeButtonsWrapper {
+    width: 100%; /* Ensure it takes up full width */
+    display: flex;
+    align-items: center; /* Center the buttons */
+    padding: 20px 0; /* Adjust padding */
+  }
+}

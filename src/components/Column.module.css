@@ -1,0 +1,60 @@
+.avatarImageIcon {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.customerName {
+  font-weight: 600;
+}
+.customerName,
+.positionCompanyName {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.avatar,
+.avatarContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.avatarContent {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.avatar {
+  width: 300px;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.aCustomerTestimonial {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-text-medium-size);
+  line-height: 150%;
+  font-family: var(--desktop-text-medium);
+}
+.column {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 304px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--desktop-text-regular-size);
+  color: var(--black);
+  font-family: var(--text-regular-normal);
+}
+@media screen and (max-width: 450px) {
+  .aCustomerTestimonial {
+    font-size: var(--desktop-text-regular-size);
+    line-height: 24px;
+  }
+}

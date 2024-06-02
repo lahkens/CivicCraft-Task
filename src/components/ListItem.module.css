@@ -1,0 +1,38 @@
+.listItemIcon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.loremIpsumDolor,
+.modernMachinery {
+  align-self: stretch;
+  position: relative;
+}
+.modernMachinery {
+  letter-spacing: -0.01em;
+  line-height: 34px;
+  font-weight: 700;
+}
+.loremIpsumDolor {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 150%;
+}
+.listItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 192px;
+  text-align: left;
+  font-size: var(--subheading-size);
+  color: var(--gray-scale-800);
+  font-family: var(--desktop-text-medium);
+}
+@media screen and (max-width: 450px) {
+  .modernMachinery {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+}

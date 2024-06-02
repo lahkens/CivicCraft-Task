@@ -1,0 +1,121 @@
+.webChild {
+  height: 21.6px;
+  width: 21.6px;
+  position: relative;
+}
+.skydrone {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.column,
+.web {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.web {
+  align-items: center;
+  padding: 0 var(--padding-5xs);
+  gap: var(--gap-9xs);
+}
+.column {
+  align-items: flex-start;
+}
+.clients,
+.downloadApp,
+.features {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 51px;
+}
+.downloadApp,
+.features {
+  min-width: 65px;
+}
+.downloadApp {
+  min-width: 110px;
+  white-space: nowrap;
+}
+.column2,
+.navLinkDropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.column2 {
+  margin: 0;
+  flex: 1;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--desktop-text-regular-size);
+  color: var(--gray-scale-800);
+  font-family: var(--desktop-text-medium);
+}
+.column1,
+.column3 {
+  align-self: stretch;
+  width: 133px;
+}
+.column1 {
+  width: 455px;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.column1,
+.container,
+.navbar1 {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.container {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navbar1 {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-45xl);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-11xl-1);
+  color: var(--gray-scale-900);
+  font-family: var(--desktop-text-medium);
+}
+@media screen and (max-width: 750px) {
+  .column2 {
+    display: none;
+  }
+  .column1 {
+    width: 165px;
+  }
+  .navbar1 {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .column1 {
+    gap: var(--gap-base);
+  }
+}

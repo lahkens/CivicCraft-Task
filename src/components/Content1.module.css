@@ -1,0 +1,50 @@
+.iconEmail {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contactskydronecombr,
+.email {
+  align-self: stretch;
+  position: relative;
+}
+.email {
+  letter-spacing: -0.01em;
+  line-height: 120%;
+  font-weight: 700;
+}
+.contactskydronecombr {
+  font-size: var(--desktop-text-regular-size);
+  line-height: 150%;
+  white-space: nowrap;
+}
+.contactInfo,
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.content {
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--desktop-heading-size-medium-size);
+  color: var(--gray-scale-800);
+  font-family: var(--desktop-text-medium);
+}
+@media screen and (max-width: 750px) {
+  .email {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .email {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+}
