@@ -139,6 +139,7 @@
   }
   .content,
   .placeholderImage {
+    /* border: 1px solid red !important;  */
     min-width: 100%;
   }
   .features2Section {

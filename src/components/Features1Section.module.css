@@ -1,117 +1,117 @@
 .placeholderImage {
-    height: 100%;
-    flex: 1;
-    overflow: hidden;
-    object-fit: contain;
-    position: absolute;
-    left: 0;
-    top: 89px;
-    width: 100%;
-    transform: scale(1.283);
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 89px;
+  width: 100%;
+  transform: scale(1.283);
 }
 .wrapperPlaceholderImage {
-    height: 640px;
-    flex: 1;
-    position: relative;
-    /* border-radius: var(--br-9xs) var(--br-9xs) var(--br-981xl) var(--br-9xs); */
-    max-width: 100%;
-    min-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 640px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-9xs) var(--br-9xs) var(--br-981xl) var(--br-9xs);
+  max-width: 100%;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .modernTechnology,
 .moreThanJust {
-    align-self: stretch;
-    position: relative;
+  align-self: stretch;
+  position: relative;
 }
 .modernTechnology {
-    letter-spacing: 0.2em;
-    line-height: 150%;
-    text-transform: uppercase;
-    font-weight: 700;
+  letter-spacing: 0.2em;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .moreThanJust {
-    font-size: var(--desktop-heading-size-large-size);
-    letter-spacing: -0.01em;
-    line-height: 120%;
-    color: var(--gray-scale-800);
+  font-size: var(--desktop-heading-size-large-size);
+  letter-spacing: -0.01em;
+  line-height: 120%;
+  color: var(--gray-scale-800);
 }
 .sectionTitle {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-5xl);
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
 }
 .listItemChild {
-    width: 48px;
-    height: 48px;
-    position: relative;
+  width: 48px;
+  height: 48px;
+  position: relative;
 }
 .loremIpsumDolor,
 .saveTimeAnd {
-    align-self: stretch;
-    position: relative;
+  align-self: stretch;
+  position: relative;
 }
 .saveTimeAnd {
-    letter-spacing: -0.01em;
-    line-height: 34px;
+  letter-spacing: -0.01em;
+  line-height: 34px;
 }
 .loremIpsumDolor {
-    font-size: var(--desktop-text-regular-size);
-    line-height: 150%;
+  font-size: var(--desktop-text-regular-size);
+  line-height: 150%;
 }
 .listItem {
-    flex: 1;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--gap-base);
-    min-width: 192px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  min-width: 192px;
 }
 .content,
 .features1Section,
 .list,
 .listItem {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 .list {
-    align-self: stretch;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: var(--padding-5xs) 0;
-    gap: var(--gap-5xl);
-    color: var(--gray-scale-800);
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xs) 0;
+  gap: var(--gap-5xl);
+  color: var(--gray-scale-800);
 }
 .content,
 .features1Section {
-    max-width: 100%;
+  max-width: 100%;
 }
 .content {
-    flex: 1;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--gap-13xl);
-    min-width: 400px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 400px;
 }
 .features1Section {
-    width: 100%;
-    background-color: var(--white);
-    overflow: hidden;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 100px 1px;
-    box-sizing: border-box;
-    gap: var(--gap-61xl);
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    font-size: var(--subheading-size);
-    color: var(--color-peru);
-    font-family: var(--desktop-text-medium);
+  width: 100%;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 100px 1px ;
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--subheading-size);
+  color: var(--color-peru);
+  font-family: var(--desktop-text-medium);
 }
 @media screen and (max-width: 1200px) {
     .features1Section {
@@ -146,7 +146,7 @@
     }
     .wrapperPlaceholderImage {
         /* border: 1px solid red !important; */
-        width: 100%;
+        min-width: 100%;
     }
     .modernTechnology {
         font-size: var(--font-size-lgi);
@@ -161,3 +161,4 @@
         line-height: 27px;
     }
 }
+
